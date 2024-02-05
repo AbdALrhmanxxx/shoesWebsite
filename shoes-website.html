@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>shoes web site</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/web.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <a href="shoes-website.html"
+        ><div class="logo-container">
+          <img class="logo" src="picture/logo.png" />
+        </div>
+      </a>
+      <nav>
+        <a href="#home"> home</a>
+        <a href="#product">product </a>
+        <a href="#fearured">fearured </a>
+        <a href="#review"> review</a>
+        <a href="#news">news</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="left-side">
+        <div class="about-product">
+          <h1>new Collction</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+            ipsam? Deserunt voluptas neque dolor voluptates, impedit quidem sint
+            obcaecati facere nesciunt quisquam? Velit laboriosam quisquam
+            quaerat fuga pariatur inventore, voluptatibus, nostrum numquam
+            cumque dolorum impedit natus consequuntur exercitationem non! In.
+          </p>
+        </div>
+        <div class="icons">
+          <img onclick="shoes(this.src,'black')  ;" src="picture/slide/1.png" />
+          <img onclick="shoes(this.src,'#9e0330');" src="picture/slide/2.png" />
+          <img onclick="shoes(this.src,'#003300');" src="picture/slide/3.png" />
+        </div>
+      </div>
+      <div class="photo-container">
+        <img class="trans" src="picture/slide/1.png" />
+        </div>
+    </div>
+    <h1 class="new-pro">NEW <span class="pro"> PRODUCTS</span></h1>
+    <div class="product-continer"></div>
+    <div class="flex-row">
+      <div></div>
+    </div>
+    <script type="module" src="script/web.js"></script>
+  </body>
+</html>

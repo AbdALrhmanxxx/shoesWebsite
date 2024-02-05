@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.logo-container {
+  width: 200px;
+}
+.logo {
+  width: 100%;
+  height: 55px;
+}
+header nav a {
+  font-size: 20px;
+  color: black;
+  margin: 0px 6px;
+  transition: 0.5s;
+  font-weight: bold ;
+}
+header nav a:hover {
+  font-size: 21px;
+  color: #ed0036;
+  padding: 0 2px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background-color: gray;
+  padding: 15px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container{
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  flex: 200px 1fr;
+  column-gap: 50px;
+}
+.container .left-side{
+  display: flex;
+  flex-direction: column;
+  flex: 30px;
+  justify-content: space-around;
+}
+.container .left-side .about-product{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px ;
+}
+.container .left-side .about-product h1{
+font-size: 40px;
+font-weight: 800;
+}
+.container .left-side .about-product p{
+  font-size: 20px;
+  text-align: center;
+}
+.container .left-side .icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap:20px;
+}
+.icons img {
+  cursor: pointer;
+  width: 120px;
+  transition: 0.5s;
+}
+.icons img:hover {
+  transform: scale(1.2);
+}
+.new-pro {
+  margin-top: 25px;
+  font-size: 80px;
+  color: #ed0036;
+  text-align: center;
+}
+.pro {
+  color: #9e0330;
+}
